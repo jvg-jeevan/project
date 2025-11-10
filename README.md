@@ -1,13 +1,4 @@
-Got it ✅
-You want a **cleaner, more professional, beautifully formatted** GitHub README — not something that looks repetitive or student-level.
 
-Here is a **polished, modern, industry-style README** with cleaner structure, less clutter, removed main.py references, better visuals, badges, and a professional tone.
-
----
-
-# ✅ **FINAL PROFESSIONAL README.md — (COPY & PASTE INTO GITHUB)**
-
-```markdown
 <h1 align="center">🔍 Image Super-Resolution using SRCNN</h1>
 <p align="center">
   Deep Learning based Super-Resolution implemented in PyTorch  
@@ -20,8 +11,6 @@ Here is a **polished, modern, industry-style README** with cleaner structure, le
   <img src="https://img.shields.io/badge/Compute-CPU Only-blue" />
   <img src="https://img.shields.io/badge/UI-Gradio & Tkinter-orange" />
 </p>
-
----
 
 ## ✅ Introduction
 
