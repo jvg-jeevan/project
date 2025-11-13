@@ -30,7 +30,7 @@ This project re-implements the original **SRCNN architecture** proposed by:
 ✔ Trained from scratch using ~500 high-res images  
 ✔ Average **Test PSNR > 30 dB** (significantly higher than bicubic)  
 ✔ Works entirely on CPU  
-✔ CLI inference, Gradio Web UI & Desktop GUI  
+✔ CLI inference, Gradio Web UI  
 ✔ Automatic dataset downloader  
 ✔ Saves training curves & metrics
 
@@ -59,18 +59,17 @@ Metric: **PSNR**
 ```
 
 SRCNN/
-│── checkpoints/          # saved models (best_model.pth)
-│── data/                 # auto-downloaded dataset
+│── checkpoints/          
+│── data/                 
 │   └── combined_400/
 │── results/              # output images, metrics.csv, training plots
-│── dataset.py            # dataset loader & preprocessing
-│── model.py              # SRCNN architecture
-│── train.py              # training script
-│── test.py               # PSNR evaluation
-│── inference.py          # run SR on any input image
-│── gradio_app.py         # browser UI for upload & download
-│── gui.py                # desktop Tkinter GUI
-│── utils.py              # PSNR + dataset downloader
+│── dataset.py            
+│── model.py              
+│── train.py             
+│── test.py              
+│── inference.py         
+│── gradio_app.py               
+│── utils.py
 
 ````
 
@@ -98,7 +97,7 @@ pip install opencv-python
 
 ---
 
-## 📥 Dataset (Automatic)
+## 📥 Dataset
 
 No manual download required.
 First run of training downloads:
@@ -184,15 +183,11 @@ python gradio_app.py
 ## ✅ Results
 
 | Method           | PSNR           |
-| ---------------- | -------------- |
-| Bicubic          | ~23 dB         |
+| ---------------- | --------------- |
+| Bicubic          | ~23 dB          |
 | **SRCNN (Ours)** | **30.60 dB ✅** |
 
-*Add example comparison images here:*
 
-| Low-Res Input    | SRCNN Output      |
-| ---------------- | ----------------- |
-| *(insert image)* | *(insert result)* |
 
 ---
 
@@ -233,10 +228,10 @@ Paper: [https://arxiv.org/abs/1501.00092](https://arxiv.org/abs/1501.00092)
 
 ## 👨‍💻 Author
 
-**Jeevan V Gowda**
-M.Tech – Signal Processing and Machine Learning
+**Jeevan V Gowda**<br>
+M.Tech – Signal Processing and Machine Learning<br>
 National Institute of Technology, Karnataka
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jvg-jeevan)  
 ---
 ## 📝 License
 
