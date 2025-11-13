@@ -38,6 +38,9 @@ This project re-implements the original **SRCNN architecture** proposed by:
 
 ## 🧠 Model Architecture (SRCNN)
 
+<img width="1533" height="569" alt="image" src="https://github.com/user-attachments/assets/97d215da-e46f-429a-9e78-8ba8ac3bd752" />
+
+
 | Layer | Kernel | Channels | Description             | 
 |-------|--------|----------|-------------------------|
 | Conv1 | 9×9    | 64       | Feature extraction      |
@@ -47,6 +50,7 @@ This project re-implements the original **SRCNN architecture** proposed by:
 Loss: **MSE**  
 Optimizer: **Adam**  
 Metric: **PSNR**
+
 
 ---
 
