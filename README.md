@@ -172,13 +172,12 @@ python gradio_app.py
 ✔ Processed HR image shown
 ✔ Download button included
 
+<img width="1919" height="960" alt="adf" src="https://github.com/user-attachments/assets/9dab45c2-b571-4488-bfce-60c8bad4cf84" />
+
+
 ---
 
-## 🖥 Desktop GUI
 
-```bash
-python gui.py
-```
 
 ---
 
@@ -234,13 +233,14 @@ Paper: [https://arxiv.org/abs/1501.00092](https://arxiv.org/abs/1501.00092)
 
 ## 👨‍💻 Author
 
-**Your Name**
-M.Tech – Image Processing & Computer Vision Project
+**Jeevan V Gowda**
+M.Tech – Signal Processing and Machine Learning
+National Institute of Technology, Karnataka
 
 ---
+## 📝 License
 
-## ✅ License
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-This project is open-source for academic and research purposes.
-
-```
+This project is licensed under the **MIT License**.
+---
