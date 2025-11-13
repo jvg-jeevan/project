@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/PyTorch-2.0+-red" />
   <img src="https://img.shields.io/badge/PSNR-30.6 dB-green" />
   <img src="https://img.shields.io/badge/Compute-CPU Only-blue" />
-  <img src="https://img.shields.io/badge/UI-Gradio & Tkinter-orange" />
+  <img src="https://img.shields.io/badge/UI-Gradio" />
 </p>
 
 ## ✅ Introduction
